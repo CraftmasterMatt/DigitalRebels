@@ -2,20 +2,19 @@
 	<Instantly>
 		<RunFunction FunctionName="playCustomSongImmediatley:Music/BitMatrix.ogg" />   
 	</Instantly> 
-<OnConnect target="IAMERROR" needsMissionComplete="false" >
-	<SwitchToTheme ThemePathOrName="HacknetTeal" FlickerInDuration="0.25"/>
-	<LaunchHackScript Filepath="HackerScripts/EnterOrion.txt" SourceComp="ORIONPC" TargetComp="playerComp" RequireLogsOnSource="false"/>
 	<!--DigiSequencer should force connect the player to IAMERROR. This should trigger a hackerscript as soon as the player is connected. -->
-	<KillExe ExeName="notes" />
-	<KillExe ExeName="seq" />
-	<CrashComputer TargetComp="IAMERROR" CrashSource="IAMERROR"/>
-	<HideNode TargetComp="IAMERROR"/> 
-	<!--These should crash IAMERROR and remove the node from the netmap.-->	
-	
-	<DeleteFile TargetComp="PlayerBackup" FilePath="bin" FileName="DigiSequencer.exe"/>
-	<DeleteFile TargetComp="playerComp" FilePath="bin" FileName="DigiSequencer.exe"/>
-	<RunFunction FunctionName="removeFlags:startupComplete"/>
-	<!-- This removes the flag for the sequencer, so it shouldn't be able to be re-triggered.-->
-	<RunFunction FunctionName="addFlags:SysCrash"/>
-</OnConnect>
+	<OnConnect target="IAMERROR" needsMissionComplete="false" >
+		<SwitchToTheme ThemePathOrName="HacknetTeal" FlickerInDuration="0.25"/>
+		<LaunchHackScript Filepath="HackerScripts/EnterOrion.txt" SourceComp="ORIONPC" TargetComp="playerComp" RequireLogsOnSource="false"/>
+		<KillExe ExeName="notes" />
+		<KillExe ExeName="seq" />
+		<!--These should crash IAMERROR and remove the node from the netmap.-->	
+		<CrashComputer TargetComp="IAMERROR" CrashSource="IAMERROR"/>
+		<HideNode TargetComp="IAMERROR"/> 
+		<DeleteFile TargetComp="PlayerBackup" FilePath="bin" FileName="DigiSequencer.exe"/>
+		<DeleteFile TargetComp="playerComp" FilePath="bin" FileName="DigiSequencer.exe"/>
+		<!-- This removes the flag for the sequencer, so it shouldn't be able to be re-triggered.-->
+		<RunFunction FunctionName="removeFlags:startupComplete"/>
+		<RunFunction FunctionName="addFlags:SysCrash"/>
+	</OnConnect>
 </ConditionalActions>

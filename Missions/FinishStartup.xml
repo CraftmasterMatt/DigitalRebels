@@ -1,18 +1,18 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="FinishStartup">
-  <goals>
-	<goal type="getstring" target="DigiSequencer.exe"/>
-  </goals>
-  <missionStart val="0">addFlags:BackupPass</missionStart>
-  <missionEnd val="0">addFlags:startupComplete</missionEnd> 
-  <nextMission>Missions/IntroFinal.xml</nextMission>
-  <email>
-    <sender>Anonymous</sender>
-    <subject>Here's the Password, BTW</subject>
-<body>Hello #PLAYERNAME#!
+	<goals>
+		<goal type="getstring" target="DigiSequencer.exe"/>
+	</goals>
+	<missionStart val="0">addFlags:BackupPass</missionStart>
+	<missionEnd val="0">addFlags:startupComplete</missionEnd> 
+	<nextMission>Missions/IntroFinal.xml</nextMission>
+	<email>
+		<sender>Anonymous</sender>
+		<subject>Here's the Password</subject>
+		<body>Hello #PLAYERNAME#!
 
 I'm really sorry I forgot your password earlier!
-I linked it down below. All sales are final- I'm not tech support.
+I linked it down below. All sales are final- I'm no tech support.
 You're probably better with computers than I am. 
 	
 You'd better not do illegal stuff with that backup server,
@@ -27,10 +27,9 @@ bin folder was as soon as you get this email, okay?
 	
 Thanks (again) for the money!
 -Anonymous
-
 </body>
-    <attachments>
-	 <account comp="playerBackup" user="#PLAYERNAME#" pass="SafeNSound" />
-    </attachments>
-  </email>
+		<attachments>
+			<account comp="playerBackup" user="#PLAYERNAME#" pass="SafeNSound" />
+		</attachments>
+	</email>
 </mission>

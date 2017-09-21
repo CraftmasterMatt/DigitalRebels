@@ -1,17 +1,17 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="WhitelistBust">
-  <goals>
-    <goal type="filedeletion" target="MerchantWhitelist" file="authenticator.dll" path="Whitelist"/>
-  </goals>
-  <missionStart val="0" suppress="true">playCustomSong:Music/BossOfNova.ogg</missionStart>
-  <nextMission>NONE</nextMission>
-  <posting title="Whitelist Bust">
-  Take down a Whitelist Server and help some people out along the way.
-  </posting>
-  <email>
-    <sender>Zaz</sender>
-    <subject>Whitelist Bust</subject>
-    <body>
+	<goals>
+		<goal type="filedeletion" target="MerchantWhitelist" file="authenticator.dll" path="Whitelist"/>
+	</goals>
+	<missionStart val="0" suppress="true">playCustomSong:Music/BossOfNova.ogg</missionStart>
+	<nextMission>NONE</nextMission>
+	<posting title="Whitelist Bust">
+	Take down a Whitelist Server and help some people out along the way.
+	</posting>
+	<email>
+		<sender>Zaz</sender>
+		<subject>Whitelist Bust</subject>
+		<body>
 According to reports from various merchants, 
 there's a whitelist on the Merchant Hub Server 
 that is preventing them from logging
@@ -47,17 +47,15 @@ Keep this in mind.
 
 Good luck.
 -Zaz
-    </body>
-    <attachments>
-	  <link comp="HCorpsDrop"/>
-	  <account comp="HCorpsDrop" user="#PLAYERNAME#" pass="INeedAHero" /> 
-      <link comp="MerchantWhitelist" />
-      <note title="Your Mission">
-	Delete authenticator.dll
-	in Whitelist directory.
-	Wipe logs.
-	Report back.
+</body>
+		<attachments>
+			<link comp="HCorpsDrop"/>
+			<account comp="HCorpsDrop" user="#PLAYERNAME#" pass="INeedAHero" /> 
+			<link comp="MerchantWhitelist" />
+			<note title="Your Mission">
+Delete authenticator.dll from Whitelist directory.
+Wipe logs.
 </note>
-    </attachments>
-  </email>
+		</attachments>
+	</email>
 </mission>

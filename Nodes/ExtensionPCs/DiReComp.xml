@@ -1,23 +1,23 @@
- <!-- This PC is used for testing purposes- to allow me to skip missions without having to worry about having the proper tools to break into computers. This computer should be dev access only- the only way in is to use FH or to have secret knowledge of not only this server but the series the extension is a part of.  -->
+ <!-- This PC is used for testing purposes- to allow me to skip missions without having to worry about having the proper tools to break into computers.
+This computer should be dev access only- the only way in is to use FH or to have secret knowledge of not only this server but the series the extension is a part of.  -->
 <Computer id="DiReComp" name="Digital Rebels Data Storage" ip="4444.4444.4444" security="3" allowsDefaultBootModule="true" icon="laptop" type="empty" >
-
-<adminPass pass="TheAcademyOfHeroes" />>
-<ports>21, 25, 1433</ports>
-<proxy time="-1" />
-<portsForCrack val="4444" />
-<trace time="-1" />
-<CustomConnectDisplayDaemon />
-<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
-<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
-<file path="bin" name="FTPStrike.exe">#FTP_FAST_EXE#</file>
-<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
-<file path="bin" name="WebOroboros.exe">#WEB_CRACK#</file>
-<file path="bin" name="MediAuthSpoof.exe">#MEDICAL_PROGRAM#</file>
-<file path="bin" name="AEGIScan.exe">#EOS_SCANNER_EXE#</file>
-<file path="bin" name="TorrentKey.exe">#TORRENT_EXE#</file>
-<file path="bin" name="SSLMimic.exe">#SSL_EXE#</file>
-<file path="bin" name="RTSPCrusher.exe">#RTSP_EXE#</file>
-<file path="bin" name="PacificBypass.exe">#PACIFIC_EXE#</file>
-<file path="bin" name="SQLDumpGenerator.exe">#SQL_CRACK#</file>
-<file path="bin" name="DigiSequencer.exe">#EXT_SEQUENCER_EXE#</file>
+	<adminPass pass="TheAcademyOfHeroes" />>
+	<ports>21, 25, 1433</ports>
+	<proxy time="-1" />
+	<portsForCrack val="4444" />
+	<trace time="-1" />
+	<CustomConnectDisplayDaemon />
+	<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+	<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+	<file path="bin" name="FTPStrike.exe">#FTP_FAST_EXE#</file>
+	<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+	<file path="bin" name="WebOroboros.exe">#WEB_CRACK#</file>
+	<file path="bin" name="MediAuthSpoof.exe">#MEDICAL_PROGRAM#</file>
+	<file path="bin" name="AEGIScan.exe">#EOS_SCANNER_EXE#</file>
+	<file path="bin" name="TorrentKey.exe">#TORRENT_EXE#</file>
+	<file path="bin" name="SSLMimic.exe">#SSL_EXE#</file>
+	<file path="bin" name="RTSPCrusher.exe">#RTSP_EXE#</file>
+	<file path="bin" name="PacificBypass.exe">#PACIFIC_EXE#</file>
+	<file path="bin" name="SQLDumpGenerator.exe">#SQL_CRACK#</file>
+	<file path="bin" name="DigiSequencer.exe">#EXT_SEQUENCER_EXE#</file>
 </Computer>
