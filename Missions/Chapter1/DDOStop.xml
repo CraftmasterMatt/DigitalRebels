@@ -13,7 +13,6 @@
   
   </goals>
   <missionStart val="0">loadConditionalActions:Actions/IRC/DDOStopActions.xml</missionStart>
-  <missionEnd val="0">loadConditionallActions:Actions/IRC/DDOSDone.xml</missionEnd> 
  <nextMission>NONE</nextMission>
   <posting title="Stop a DDoS attack">
 	Stop a group of script squids ruining a livestream.

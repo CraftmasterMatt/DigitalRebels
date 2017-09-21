@@ -5,7 +5,8 @@
 	<goal type="filedownload" target="playerBackup" file="DigiSequencer.exe" path="bin/DigiSequencer"/> 
 	<goal type="getadmin" target="playerBackup"/>
 	<goal type="delay" time="5.0"/>
- </goals>
+  </goals>
+  <missionStart>loadConditionalActions:Actions/FIX_VERIFICATION.xml</missionStart>
   <nextMission>Missions/FinishStartup.xml</nextMission>
   <email>
     <sender>Anonymous</sender>

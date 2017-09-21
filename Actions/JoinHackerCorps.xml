@@ -1,6 +1,7 @@
 <ConditionalActions>
 
 <OnConnect target="HCorpsHub">
+ <RunFunction FunctionName="setFaction:HackerCorps" />
  <RunFunction FunctionName="setHubServer:HCorpsHub" />
  <RunFunction FunctionName="setAssetServer:HCorpsDrop" />
  <ChangeAlertIcon Target="HCorpsHub" Type="irchub" DelayHost="HCorpsHub" Delay="1.0"/>

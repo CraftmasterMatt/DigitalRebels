@@ -12,4 +12,5 @@
 <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
 <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
 <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="sys" name="SignalIsolator.sys">You aren't supposed to read this, y'know?</file>
 </Computer>

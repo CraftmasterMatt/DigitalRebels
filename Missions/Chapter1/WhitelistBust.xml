@@ -4,7 +4,6 @@
     <goal type="filedeletion" target="MerchantWhitelist" file="authenticator.dll" path="Whitelist"/>
   </goals>
   <missionStart val="0" suppress="true">playCustomSong:Music/BossOfNova.ogg</missionStart>
-  <missionEnd val="0">loadConditionalActions:Actions/IRC/WhitelistBustDone.xml</missionEnd> 
   <nextMission>NONE</nextMission>
   <posting title="Whitelist Bust">
   Take down a Whitelist Server and help some people out along the way.

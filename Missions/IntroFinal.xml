@@ -1,11 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="IntroFinal" activeCheck="true">
   <goals>
-  <goal type="filedeletion" target="playerComp" file="SignalIsolator.sys" path="sys"/>
+  	<goal type="filedeletion" target="playerComp" file="SignalIsolator.sys" path="sys"/>
 	<goal type="delay" time="5.0"/>
   </goals>
   <missionStart val="0">loadConditionalActions:Actions/SequencerCrash.xml</missionStart>
-  <nextMission>missions/Chapter1/Ch1Trial1.xml</nextMission>
+  <nextMission>Missions/Chapter1/Ch1Trial1.xml</nextMission>
   <email>
     <sender>Anonymous</sender>
     <subject>WTF?</subject>

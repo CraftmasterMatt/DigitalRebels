@@ -10,6 +10,7 @@
 	<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="35.5">Step 2. Get Pass, Solve [PASSWORD]</AddIRCMessage>
 	<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="38.5">Step 3. ??????</AddIRCMessage>
 	<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="41.5">Step 4. PROFIT #srslysimpledude</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/IRC/DDOSDone.xml">
 </Instantly>
 
 </ConditionalActions>

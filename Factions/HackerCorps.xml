@@ -1,21 +1,41 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <CustomFaction name="ToL Hacker Corps" id="HackerCorps" playerVal="0">
-
-<Action ValueRequired="1">
-<AddIRCMessage Author="!CHANNEL!" TargetComp="HCorpsHub" Delay="0.1">--------------------------------------</AddIRCMessage>
-<AddIRCMessage Author="!CHANNEL!" TargetComp="HCorpsHub" Delay="0.1">! ANNOUNCEMENT ! @CHANNEL User #PLAYERNAME# has joined the HackerCorps IRC!</AddIRCMessage>
-<AddIRCMessage Author="!CHANNEL!" TargetComp="HCorpsHub" Delay="0.1">--------------------------------------</AddIRCMessage>
-<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="5.5">@#PLAYERNAME#, I'm glad to see that you got in alright. </AddIRCMessage>
-<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="1.3">@Zaz New comp who dis</AddIRCMessage>
-<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="2.5">@Teseo, this is #PLAYERNAME#, they'll be joining us.</AddIRCMessage>
-<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="1.3">Ohai @#PLAYERNAME#.</AddIRCMessage>
-<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="1.3">Y R U so quiet tho? Is ur keyboard machine broke?</AddIRCMessage>
-<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="1.3">I could fix it for u tho #HackTheWorld</AddIRCMessage>
-<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="2.5">@Teseo, STOP. If they have anything important to say I'm sure they'll say it. Otherwise, leave them alone.</AddIRCMessage>
-<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="3.3">Kk</AddIRCMessage>
-<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="2.5">Anyways @#PLAYERNAME#, there aren't any projects available right now, but I think we'll have one shortly.</AddIRCMessage>
-<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="2.5">Here's a link to our DropServer, which also doubles as our Asset server. I set up a login for you, too.</AddIRCMessage>
-<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="0.1">!ATTACHMENT:link#%#HCorpsDrop#%#</AddIRCMessage>
-<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="0.1">!ATTACHMENT:account#%#HCorpsDrop#%##PLAYERNAME##%#INeedAHero</AddIRCMessage>
-</Action>
+	<Action ValueRequired="1">
+	        <AddMissionToHubServer MissionFilepath="Missions/Chapter1/DDOStop.xml" TargetComp="HCorpsHub"/>
+        	<AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="3.0">--------------------------------------</AddIRCMessage>
+	        <AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="3.1">!ANNOUNCEMENT! @Channel USER @#PLAYERNAME# has completed the assignment "Whitelist Bust" successfully!</AddIRCMessage>
+        	<AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="3.2">--------------------------------------</AddIRCMessage>
+	        <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="5.5">Good job, @#PLAYERNAME#, it looks like the whitelist is down. </AddIRCMessage>
+	        <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="8.5">This should resolve the issues the merchants are having.</AddIRCMessage>
+	        <AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="10.5">@Zaz, @#PLAYERNAME# HALP</AddIRCMessage>
+	        <AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="12.5">LIVESTREAM MACHINE BROKE</AddIRCMessage>
+	        <AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="14.5">PSYCHICS DID NOT SEE FORECOMING</AddIRCMessage>
+	        <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="19.5">What the... @Teseo, you're right, it's not working.</AddIRCMessage>
+	        <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="22.5">Let me run a few checks...</AddIRCMessage>
+	        <AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="25.5">HURRY PLS</AddIRCMessage>
+	        <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="28.5">I pinged the server, I should get a reply back soon...</AddIRCMessage>
+	        <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="33.5">...</AddIRCMessage>
+	        <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="38.5">You've got to be kidding me...</AddIRCMessage>
+	        <AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="41.5">What happen? Did someone set us up the bomb? We get signal?</AddIRCMessage>
+	        <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="43.5">@#PLAYERNAME#, the livestream is undergoing a severe Distributed Denial of Service Attack. And to make matters worse...</AddIRCMessage>
+	        <AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="45.5">Ping Status for ToL Psychic Livestream Server has returned with the following error:</AddIRCMessage>
+	        <AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="48.5">"ALL UR BASE R BELONG TO US - NOSCOPERZ"</AddIRCMessage>
+	        <AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="51.5">/TABLEFLIP/</AddIRCMessage>
+	        <AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="53.5">(((_|____|_((( D:{ </AddIRCMessage>
+	        <AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="56.5">cmdrun/rage.bat -i</AddIRCMessage>
+	        <AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="56.6">@Channel @Zaz says: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</AddIRCMessage>
+	        <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="60.5">@#PLAYERNAME#, Check the projects tab. We have some work to do and some squids to hunt.</AddIRCMessage>
+	</Action>
+	<Action ValueRequired="2">
+		<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="6.5">@#PLAYERNAME# Such hack. Many ports. Wow.</AddIRCMessage>
+		<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="10.5">Good Work, @#PLAYERNAME#. That was fast, and the livestream is up and running.</AddIRCMessage>
+		<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="15.5">Now za warudo can behold the 1v1 Psychic battles! #thepowerisinyourmind #toshaketheplanets #andconquertime</AddIRCMessage>
+		<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="19.5">I don't know why those script squids wanted to DDOS the livestream for the one on one battles for psychics. It's the Tournament of Legends! </AddIRCMessage>
+		<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="23.5"> It only happens once every five years- seriously, if the script squids are somehow participating in the tournament, then I hope they get banned. They're being seriously disrespectful.</AddIRCMessage>
+		<AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="30.5"> !ANNOUNCEMENT! @#PLAYERNAME# has completed the Digital Rebels Demo.</AddIRCMessage>
+		<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="33.5">GG WP NO RE</AddIRCMessage>
+		<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="36.5">Excellent work, @#PLAYERNAME#. You might have seen some things that didn't make sense- but all will be explaned later.</AddIRCMessage>
+		<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="39.5">For now? I'll leave it up to your imagination. Fair warning, though, the fourth wall will be a bit sturdier when the game is actually finished.</AddIRCMessage>
+		<AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="42.5">!ANNOUNCEMENT! @#PLAYERNAME# Please leave Feedback to CraftMasterMatt#6334 on Discord. Thank you for playing! -CRAFTMASTERMATT</AddIRCMessage>
+	</Action>
 </CustomFaction>
