@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MerchantServer" name="Merchant Servers Whitelist Host" security="3" allowsDefaultBootModule="true" type="3">
+<adminPass pass="WeHavetheGoods" />
+<ports>22, 25, 80, 1433</ports>
+<proxy time="0.60" />
+<firewall level="7" solution="bahamut" additionalTime="0.5"/>
+<portsForCrack val="4" />
+<trace time="-1" />
+<WhitelistAuthenticatorDaemon Remote="MerchantWhitelist"/>
+</Computer>

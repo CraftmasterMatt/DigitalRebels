@@ -1,0 +1,22 @@
+<--! This PC is used for testing purposes- to allow me to skip missions without having to worry about having
+the proper tools to break into computers. This computer should be dev access only- the only way in is to use FH. --->
+<Computer id="DiReComp" name="Digital Rebels Data Storage" security="3" allowsDefaultBootModule="true" icon="laptop" type="empty" >
+ip="4444.4444.4444"
+<adminPass pass="TheAcademyOfHeroes" />>
+<ports>21, 25, 1433</ports>
+
+<CustomConnectDisplayDaemon />
+<proxy time="-1" />
+<portsForCrack val="4444" />
+<trace time="-1" />
+<file path="bin" name="SSHCrack">#SSH_CRACK#</file>
+<file path="bin" name="FTPBounce">#FTP_CRACK#</file>
+<file path="bin" name="FTPStrike">#FTP_FAST_EXE#</file>
+<file path="bin" name="SMTPOverflow">#SMTP_CRACK#</file>
+<file path="bin" name="WebOroboros">#WEB_CRACK#</file>
+<file path="bin" name="MediAuthSpoof">#MEDICAL_PROGRAM#</file>
+<file path="bin" name="AEGIScan">#EOS_SCANNER_EXE#</file>
+<file path="bin" name="TorrentKey">#TORRENT_EXE#</file>
+<file path="bin" name="PacificBypass">#PACIFIC_EXE#</file>
+</file>
+</Computer>

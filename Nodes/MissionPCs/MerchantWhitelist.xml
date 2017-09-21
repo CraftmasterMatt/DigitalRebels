@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MerchantWhitelist" name="Merchant Servers Whitelist Host" security="3" allowsDefaultBootModule="true" type="3">
+<adminPass pass="GilDoshGoldGald" />
+<ports>21, 22, 25, 80</ports>
+<proxy time="-1" />
+<portsForCrack val="4" />
+<trace time="-1" />
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+<dlink target="MerchantServer" />
+<file path="home" name="NOTE_TO_TECH_SUPPORT.txt">We've been getting reports that most, if not all merchants, have been having trouble accessing the central server. Is it really nessesary to have a whitelist on that server? All of the merchants are required to have all payment information encrypted on-site securely- there's nothing a hacker would be able to steal.
+
+Seriously, this whitelist auth is more trouble than it's worth- it'd be really nice if someone could just take it down. </file>
+
+</Computer>

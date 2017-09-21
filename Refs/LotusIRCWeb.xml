@@ -1,0 +1,13 @@
+<ConditionalActions>
+  
+  <Instantly>
+<AddIRCMessage Author="Ch311" TargetComp="lotuscontract" Delay="1">Hey guys! Get this; @#PLAYERNAME# is gonna hack a website! that's soooo hard.</AddIRCMessage>
+<AddIRCMessage Author="Fr33m4n" TargetComp="lotuscontract" Delay="3.0">@Ch311 shuddup</AddIRCMessage>
+<AddIRCMessage Author="Ch311" TargetComp="lotuscontract" Delay="5.3">oooh, im soooo scared!</AddIRCMessage>
+<AddIRCMessage Author="Ch311" TargetComp="lotuscontract" Delay="6">Hey @CHANNEL!</AddIRCMessage>
+<AddIRCMessage Author="Ch311" TargetComp="lotuscontract" Delay="7.3">KYS</AddIRCMessage>
+<AddIRCMessage Author="R4tm4n" TargetComp="lotuscontract" Delay="8">Alright, that's it.
+You're getting muted.</AddIRCMessage>
+  </Instantly>
+
+</ConditionalActions>

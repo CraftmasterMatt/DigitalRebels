@@ -1,0 +1,15 @@
+<ConditionalActions>
+<Instantly>
+	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="10.5">@#PLAYERNAME#, there's something I need to let you know about in regards to this mission.</AddIRCMessage>
+	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="14.5">According to preliminary scans, two of the three target computers have active firewalls.</AddIRCMessage>
+	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="18.5">Firewalls are typically set up with a password, so they can be taken down or bypassed for maintenance.</AddIRCMessage>
+	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="22.5">What you need to do is run the Analyze command on your terminal while you're connected, and keep running it until the password shows up.</AddIRCMessage>
+	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="26.5">Once you have the password, run the 'Solve' command and enter the password. If you're correct, you'll bypass the firewall and can start cracking in.</AddIRCMessage>
+	<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="30.5">TL;DR</AddIRCMessage>
+	<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="32.5">Step 1. Analyze</AddIRCMessage>
+	<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="35.5">Step 2. Get Pass, Solve [PASSWORD]</AddIRCMessage>
+	<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="38.5">Step 3. ??????</AddIRCMessage>
+	<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="41.5">Step 4. PROFIT #srslysimpledude</AddIRCMessage>
+</Instantly>
+
+</ConditionalActions>

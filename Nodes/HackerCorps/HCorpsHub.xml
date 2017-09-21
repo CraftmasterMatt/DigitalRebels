@@ -1,0 +1,16 @@
+<Computer id="HCorpsHub" name="HackerCorps IRC" security="3" allowsDefaultBootModule="true" icon="DLCServer" type="empty" >
+
+<adminPass pass="HackerCorps43VR" />
+<ports>6881, 554, 192</ports>
+<proxy time="-1" />
+<portsForCrack val="9001" />
+<trace time="-1" />
+<dlink target="HCorpsDrop"/>
+ <DHSDaemon groupName="HackerCorps IRC Channel" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="true" themeColor="64,36,247" allowContractAbbandon="false">
+    <agent name="!CHANNEL!" pass="HackerCorps43VR" color="128,128,128"/>
+	<agent name="Zaz" pass="DigitalRebels" color="0,102,0"/>
+    <agent name="Teseo" pass="UmadBr0" color="0,204,0"/>
+    <agent name="Yukabacera" pass="missilePony" color="153,51,255"/>
+	<agent name="Zettabyte" pass="AdeodatusI3" color="102,0,51"/>
+  </DHSDaemon>
+  </Computer>

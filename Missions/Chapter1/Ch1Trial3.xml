@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Ch1Trial3">
+  <goals>
+  </goals> 
+  <missionStart val="0">loadConditionalActions:Actions/JoinHackerCorps.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Zaz</sender>
+    <subject>RE:RE:To #PLAYERNAME#</subject>
+<body>Excellent work.
+
+I'm pretty certain I can invite you to my group's IRC
+now- where we do projects and stuff. You've earned my trust,
+albeit semi-reluctantly. I'm going to keep an eye on you,
+so don't try anything funny. 
+
+I've linked to our IRC Channel below. I'll get you a link
+to our Asset and Drop server soon, too.
+
+Thanks for your help.
+-Zaz
+</body>
+    <attachments>
+	<link comp="HCorpsHub" />
+    </attachments>
+  </email>
+</mission>

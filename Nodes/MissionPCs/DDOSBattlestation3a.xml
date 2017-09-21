@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DDOSBattlestation3a" name="BiTeZaDuStO Backup" security="3" allowsDefaultBootModule="false" type="empty">
+
+<ports>21, 22</ports>
+<proxy time="-1" />
+<portsForCrack val="2" />
+<trace time="-1" />
+<dlink target="DDOSBattlestation3" />
+<positionNear target="DDOSBattlestation3" position="1" total="2" extraDistance="0.25" force="false"/>
+<file path="home" name="READ-THIS.txt">In case you're wondering, I'm not exactly the kind of person who would do stuff like this. I have to- my friends are bad but they're the only friends I have. They're in training to join the Civic Order Department or COD and they're almost too young to be at the Tournament. All of the people in COD training are really immature, because it'll let them work the immaturity out of their system and they'll be 110% ready to learn, according to what I've heard about the educational system for the COD. That means unlimited access to games and snacks and permission to be as vulgar and disrespectful as they want/can.
+
+Just... delete MEGAFLARE and get out, okay? I know you're here, I'm fairly certain. Just don't lump me in with them if you can possibly avoid it. I set it to it's lowest possible setting which means in theory I'm doing the least interfering. They just goaded me into doing it for kicks and giggles. I should have stopped them but I didn't.
+
+This is what peer pressure can do to you, people. And yes, everyone has repurposed their porta-terminals for school
+into hacking battlestations (They're too powerful for us, but hey, it's really good for homework.) -KillerQueen</file>
+
+<file path="bin" name="MegaFlare-FFX10.exe">#BINARY#</file>
+<file path="megaflare" name="MEGAFFX10Firmware.dll">#BINARY#</file>
+<file path="megaflare" name="MEGAFFX10Settings.dll">#BINARY#</file>
+<file path="megaflare" name="MEGAFFX10Targets.dll">#BINARY#</file>
+</Computer>

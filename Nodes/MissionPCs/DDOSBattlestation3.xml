@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DDOSBattlestation3" name="xxKiLlErxQuEeNxx Battleterminal" security="3" allowsDefaultBootModule="false" icon="DLCPC1" type="empty" >
+<firewall level="8" solution="4E4F5045" additionalTime="0.5"/> <!-- That's N O P E in Hex, btw -->
+<ports>21, 22, 25, 80</ports> 
+<proxy time="-1" />
+<portsForCrack val="4" />
+<trace time="-1" />
+<file path="home" name="ReadMe.txt">There's nothing to see here, officer. Move along. Srsly.</file>
+<file path="home" name="History-Homework.txt">
+-HISTORY-OF-ORION-  -THE-CALAMITY-
+Name:_____________ Score:100/100
+----------------------------------------
+What was The Calamity? .... The forces of darkness manifesting to destroy humanity.
+When did The Calamity happen? .... It hit so hard the calandar felt it, so approx. 1174 years ago.
+Does anyone know why it happened- yes or no? .... Yes.
+Explain the answer to your previous question. ....  Before the calamity, the darkness attacked as a manifestation of mankind's sins and destroyed almost all of humanity. We managed to seal it away, somehow, and the seal broke and the time changed to AC- after calamity.
+What can we learn from The Calamity? .... We need to be aware of what we're doing to help repel the darkness (as doing good is good and doing bad is bad) so we don't accidentally cause the third calamity (or second, depending on your terminology.)
+----------------------------------------</file>
+<dlink target="DDOSBattlestation3a" />
+</Computer>

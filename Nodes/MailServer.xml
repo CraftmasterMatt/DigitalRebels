@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jmail" name="Zmail.com Mail" allowsDefaultBootModule="true"
+ip="146.175.59.98"
+security="3"
+type="1" > 
+
+  <ports>80,22,21,25,1433</ports>
+  <portsForCrack val="10" />
+  <account username="#PLAYERNAME#" password="earth" type="mail" />
+  
+  <mailServer name="Zmail.com" color="65,65,65">
+
+  </mailServer>  
+  
+</Computer>

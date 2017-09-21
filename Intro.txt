@@ -1,0 +1,8 @@
+--------------------
+Hacknet OS startup complete.
+/Sys file integrity verified.
+You are currently running HN-OS V.5.069.
+Starting GUI Services...
+--------------------
+You have (1) email in your inbox.
+--------------------

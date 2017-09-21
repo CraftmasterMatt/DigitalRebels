@@ -1,0 +1,16 @@
+<ConditionalActions>
+<Instantly needsMissionComplete="true">
+   <AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="6.5">@#PLAYERNAME# Such hack. Many ports. Wow.</AddIRCMessage>
+   <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="10.5">Good Work, @#PLAYERNAME#. That was fast, and the livestream is up and running.</AddIRCMessage>
+   <AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="15.5">Now za warudo can behold the 1v1 Psychic battles! #thepowerisinyourmind #toshaketheplanets #andconquertime</AddIRCMessage>
+   <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="19.5">I don't know why those script squids wanted to DDOS the livestream for the one on one battles for psychics. It's the Tournament of Legends! </AddIRCMessage>
+   <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="23.5"> It only happens once every five years- seriously, if the script squids are somehow participating in the tournament, then I hope they get banned. They're being seriously disrespectful.
+   </AddIRCMessage>
+   <AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="30.5"> !ANNOUNCEMENT! @#PLAYERNAME# has completed the Digital Rebels Demo.
+   </AddIRCMessage>
+   <AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="33.5">GG WP NO RE</AddIRCMessage>
+   <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="36.5">Excellent work, @#PLAYERNAME#. You might have seen some things that didn't make sense- but all will be explaned later.</AddIRCMessage>
+   <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="39.5">For now? I'll leave it up to your imagination. Fair warning, though, the fourth wall will be a bit sturdier when the game is actually finished.</AddIRCMessage>
+   <AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="42.5">!ANNOUNCEMENT! @#PLAYERNAME# Please leave Feedback to CraftMasterMatt#6334 on Discord. Thank you for playing! -CRAFTMASTERMATT</AddIRCMessage>
+  </Instantly>
+  </ConditionalActions>

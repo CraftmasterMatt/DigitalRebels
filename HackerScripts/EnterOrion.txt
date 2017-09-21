@@ -1,0 +1,78 @@
+﻿config playerComp ORIONPC 0.2 $#%#$
+stopMusic $#%#$
+clearTerminal $#%#$ 
+hideNetMap $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+flash $#%#$
+flash $#%#$
+delay 2 $#%#$
+flash $#%#$
+flash $#%#$
+delay 2 $#%#$
+flash $#%#$
+flash $#%#$
+delay 5 $#%#$
+delete /bin DigiSequencer.exe  $#%#$
+writel_silent -Link Established-  $#%#$
+delay 2 $#%#$
+writel_silent -Initializing- $#%#$
+delay 3  $#%#$ 
+
+write -LOADING 10%-  $#%#$
+delay 1.5  $#%#$
+writel $#%#$
+delay 1  $#%#$
+
+write -LOADING 25%-  $#%#$
+delay 1.5  $#%#$
+writel $#%#$
+delay 1  $#%#$
+
+write -LOADING 40%-  $#%#$
+delay 1.5  $#%#$
+writel $#%#$
+
+write -LOADING 60%-  $#%#$
+delay 1  $#%#$
+writel $#%#$
+
+write -LOADING 90%-  $#%#$
+delay 0.6  $#%#$
+writel $#%#$
+
+write -LOADING 99%-  $#%#$
+delay 5  $#%#$
+
+writel_silent -Initialization Phase 1 Completed-  $#%#$
+writel $#%#$
+delay 3 $#%#$
+
+writel_silent -It is now safe to remove SignalIsolator.sys-$#%#$
+writel $#%#$
+delay 3 $#%#$
+
+writel -/!\WARNING/!\- $#%#$
+delay 0.5 $#%#$
+writel -For system stability, this file will NOT be removed automatically- $#%#$
+delay 6.5 $#%#$
+
+writel -Restarting Hacknet OS- $#%#$
+
+writel -Please Wait- $#%#$
+delay 3 $#%#$
+forkbomb $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+delay 1$#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+showNetMap $#%#$
+showDisplay $#%#$
+delay 2.2 $#%#$
+showRam $#%#$
+reboot $#%#$
+disconnect $#%#$

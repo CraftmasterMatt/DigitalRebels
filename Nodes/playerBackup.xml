@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerBackup" name="#PLAYERNAME# Backup Server" security="3" allowsDefaultBootModule="false" type="4" >
+<account username="#PLAYERNAME#" password="SafeNSound" type="ADMIN" />
+<ports>21, 22</ports>
+
+<proxy time="-1" />
+<portsForCrack val="2" />
+<trace time="-1" />
+<dlink target="playerComp" />
+<positionNear target="playerComp" position="1" total="3" extraDistance="0.1" force="true"/>
+
+<file path="home" name="DeleteThis.txt">Note to self, record Lola reading this in her sexiest voice.
+"The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. 
+The 20 meter pacer test will begin in 30 seconds. 
+Line up at the start. 
+The running speed starts slowly, but gets faster each minute after you hear this signal. 
+[beep] 
+A single lap should be completed each time you hear this sound. 
+[ding] 
+Remember to run in a straight line, and run as long as possible. 
+The second time you fail to complete a lap before the sound, your test is over. 
+The test will begin on the word start. 
+On your mark, get ready, start."</file>
+<file path="bin" name="DigiSequencer.exe">#EXT_SEQUENCER_EXE#</file>
+<file path="bin" name="READ_BEFORE_STARTING_DS.txt">This program will optimize your system for -text unreadable-
+and will result in complete and almost irreversable -text unreadable- While most functions will remain the same, many programs will not work once the setup is complete.
+During setup, a file called -text unreadable- will be created in your -text unreadable- and will need to be removed post setup. This file prevents outside signals from interfering with the startup, which will prevent a potentially catastrophic -text unreadable-
+#BINARY#</file>
+
+</Computer>

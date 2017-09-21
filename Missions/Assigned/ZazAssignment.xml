@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ZazAssignment">
+  <goals>
+  </goals>
+  <missionStart val="0"></missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Backdoor Blast">
+Seed several servers with backdoors to ease future hacking efforts.
+  </posting>
+  <email>
+    <sender>CraftmasterMatt</sender>
+    <subject>/!\Game Broken/!\</subject>
+    <body>
+Hello! If you're reading this message, somehow I haven't programmed something right
+in Digital Rebels. Please PM me on Discord under CraftmasterMatt #6334.
+
+You WILL break the game if you accept this mission- you can not abandon missions,
+and this mission is impossible to complete.
+
+Thanks again!
+-CraftMasterMatt
+    </body>
+    <attachments>
+<!--Also, if you can read this, you are datamining and I'm not very happy about that. Please ACTUALLY play my extension, I'd like that
+a lot more. Thank you. <{^u^}> -->
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,21 @@
+<ConditionalActions>
+<Instantly>
+	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="6.5">@#PLAYERNAME#, there's something I need to let you know about in regards to this mission.</AddIRCMessage>
+	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="10.5">According to preliminary scans, two of the three target computers have active firewalls.</AddIRCMessage>
+	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="14.5">Firewalls are typically set up with a password, so they can be taken down or bypassed for maintenance.</AddIRCMessage>
+	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="18.5">What you need to do is run the Analyze command on your terminal while you're connected, and keep running it until the password shows up.</AddIRCMessage>
+	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="22.5">Once you have the password, run the 'Solve' command and enter the password. If you're correct, you'll bypass the firewall and can start cracking in.</AddIRCMessage>
+	<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="26.5">TL;DR- Use the Analyze, @#PLAYERNAME#, only then will you be able to solve the mystery, and destroy your enemies. #trudat</AddIRCMessage>
+</Instantly>
+
+<Instantly needsMissionComplete="true">
+   <AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="6.5">@#PLAYERNAME# Such hack. Many ports. Wow.</AddIRCMessage>
+   <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="10.5">Good Work, @#PLAYERNAME#. That was fast, and the livestream is up and running.</AddIRCMessage>
+   <AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="15.5">Now za warudo can behold the 1v1 Psychic battles! #thepowerisinyourmind #toshaketheplanets #andconquertime</AddIRCMessage>
+   <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="19.5">I don't know why those script squids wanted to DDOS the livestream for the one on one battles for psychics. It's the Tournament of Legends! </AddIRCMessage>
+   <AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="23.5"> It only happens once every five years- seriously, if the script squids are somehow participating in the tournament, then I hope they get banned. They're being seriously disrespectful.
+   </AddIRCMessage>
+   
+  </Instantly>
+
+</ConditionalActions>

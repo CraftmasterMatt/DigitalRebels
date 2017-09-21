@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="WhitelistBust">
+  <goals>
+    <goal type="filedeletion" target="MerchantWhitelist" file="authenticator.dll" path="Whitelist"/>
+  </goals>
+  <missionStart val="0" suppress="true">playCustomSong:Music/BossOfNova.ogg</missionStart>
+  <missionEnd val="0">loadConditionalActions:Actions/IRC/WhitelistBustDone.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="Whitelist Bust">
+  Take down a Whitelist Server and help some people out along the way.
+  </posting>
+  <email>
+    <sender>Zaz</sender>
+    <subject>Whitelist Bust</subject>
+    <body>
+According to reports from various merchants, 
+there's a whitelist on the Merchant Hub Server 
+that is preventing them from logging
+in to the merchant network.
+
+As it turns out, we also need access to 
+the Merchant Network- not for anything
+truly nefarious as it were, but because 
+it links to several other nodes we'd benefit
+from having access to. 
+
+The whitelist is our last obstacle, and 
+I've managed to write in
+a backdoor to the whitelist server.
+
+All you need to do is delete the
+Authenticator.dll file from the Whitelist
+directory file on the linked computer. 
+That'll let us in, and also 
+let everyone else in, too. 
+Helping the merchants out should also 
+give us a good boost to our reputation.
+
+Regardless, be sure not to leave logs 
+on this mission. We're technically
+not supposed to remove the file, 
+but the tech support they have is apparently
+incapable of removing the whitelist.
+
+Also, here's a link and your login to our asset dropserver. 
+As we get more tools,you'll find them there. 
+Keep this in mind.
+
+Good luck.
+-Zaz
+    </body>
+    <attachments>
+	  <link comp="HCorpsDrop"/>
+	  <account comp="HCorpsDrop" user="#PLAYERNAME#" pass="INeedAHero" /> 
+      <link comp="MerchantWhitelist" />
+      <note title="Your Mission">
+	Delete authenticator.dll
+	in Whitelist directory.
+	Wipe logs.
+	Report back.
+</note>
+    </attachments>
+  </email>
+</mission>

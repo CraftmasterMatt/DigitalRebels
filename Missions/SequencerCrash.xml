@@ -1,0 +1,6 @@
+<ConditionalActions>
+ <Instantly>
+  <AddAsset FileName="SignalIsolator.sys" FileContents="#BINARY#" TargetComp="playerComp" TargetFolderpath="sys" />
+  <RunFunction FunctionName="addFlags:enteredOrion"/>
+ </Instantly>
+</ConditionalActions>

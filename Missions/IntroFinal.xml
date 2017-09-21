@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="IntroFinal" activeCheck="true">
+  <goals>
+  <goal type="filedeletion" target="playerComp" file="SignalIsolator.sys" path="sys"/>
+	<goal type="delay" time="5.0"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/SequencerCrash.xml</missionStart>
+  <nextMission>missions/Chapter1/Ch1Trial1.xml</nextMission>
+  <email>
+    <sender>Anonymous</sender>
+    <subject>WTF?</subject>
+<body> DigiSequencer.exe? I've never heard of anything like it.
+Sounds like a game to me- open it up and see what it is.
+
+Be careful though, it might be a virus.
+Don't blame me if anything goes wrong. I'm still not tech support.
+
+-Anonymous
+</body>
+    <attachments>
+	<note title="Mission Outline">
+Run DigiSequencer.exe.
+Wait for it to load.
+      </note>
+    </attachments>
+  </email>
+</mission>

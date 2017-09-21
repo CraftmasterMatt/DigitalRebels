@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Ch1Trial1">
+  <goals>
+	<goal type="filedownload" target="TrialOnePC" file="WebOroboros.exe" path="bin"/>
+	<goal type="clearfolder" target="TrialOnePC" path="sys"/>
+  </goals> 
+  <missionStart val="0">playCustomSong:Music/BrokenElevator.ogg</missionStart>
+  <nextMission>Missions/Chapter1/Ch1Trial2.xml</nextMission>
+  <email>
+    <sender>Zaz</sender>
+    <subject>To #PLAYERNAME#</subject>
+<body>I don't know you, and frankly I'm going to keep this short.
+
+Firstly I have no idea who you are or how you managed
+to attract my attention, but you have it now. 
+
+Apparently you're some kind of hacker, which is good- 
+right now I need all the help I can get. 
+
+Chances are high that you're pretty bored.
+
+If you can prove your worth to me as a hacker, 
+I will make it worth your while. 
+But you'd better not waste my time.
+
+This is basic stuff, so you shouldn't have any problems.
+If you do, though... well, the last one
+you'll hear it from is me.
+
+I've linked your instructions below.
+Take care of it.
+-Zaz
+</body>
+    <attachments>
+	 <note title="Your Mission">
+	 Access the linked server.
+	 Download WebOroboros.
+	 Wipe /Sys
+	 Wipe /Log
+	 Disconnect.
+      </note>
+	  <link comp="TrialOnePC" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,33 @@
+
+<!-- This folder contains notes that I used during the development of Digital Rebels.
+This is mostly port numbers and what tools open each port, as well as their in-game renames.
+This also has the wildcard names for when they're implimented as files. -->
+
+Port#: 211		  - Transfer
+Port#: 22		  - SSH : OPEN (SSHCRACK) #SSH_CRACK#
+Port#: 80	      - HTTP WebServer : OPEN (WEBSERVERWORM) #WEB_CRACK#
+Port#: 25	      - SMTP MailServer : OPEN (SMTPOverflow) #SMTP_CRACK#
+Port#: 21		  - FTP Server : OPEN (FTPBounce, FTPSprint) #FTP_CRACK# / #FTP_FAST_EXE#
+Port#: 1433		  - SQL Server : OPEN (SQLMemCorrupt/SQLBufferOverflow) #SQL_CRACK#
+Port#: 104	      - Medical Services : OPEN (KBT_Porttest) #MEDICAL_PROGRAM#
+Port#: 6881		  - BitTorrent : OPEN (TorrentStreamInjector) #TORRENT_EXE#
+Port#: 443	      - HTTPS (SSL) : OPEN (SSLTrojan) #SSL_EXE#
+Port#: 192	      - Pacific Dedicated : OPEN (PacificPortCrusher) #PACIFIC_EXE#
+Port#: 554		  - RTSP : OPEN (RTSPCrack) #RTSP_EXE#
+Port#: 9418	      - Version Control
+Port#: 3724	      - Blizzard Updater
+Port#: 3659       - eOS Connection Manager 
+
+
+<portRemap>web=1234</portRemap> <!-- Use the actual port name for remaps. You can use a comma to indicate multiple port changes.-->
+
+
+
+
+
+
+
+
+
+
+

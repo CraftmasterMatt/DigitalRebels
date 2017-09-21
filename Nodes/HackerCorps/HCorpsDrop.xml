@@ -1,0 +1,41 @@
+<Computer id="HCorpsDrop" name="HCorps Drop" security="3" allowsDefaultBootModule="true" type="empty" >
+<account username="#PLAYERNAME#" password="INeedAHero" type="ADMIN" />
+<ports>21, 22, 25, 80</ports>
+<proxy time="-1" />
+<portsForCrack val="4" />
+<trace time="-1" />
+<dlink target="HCorpsHUB" />
+<uploadServerDaemon name="HackerCorps Asset DropServer" folder="Uploads" needsAuth="false" color="64,36,247"/>
+<file path="home" name="TO_HACKERCORPS_MEMBERS.txt">Please be respectful of the dropserver.
+This is NOT your personal backup server- any personal items that are not assignment/project pertinent will be PURGED.
+Conservation of our non-infinite storage space is important.
+-Zaz </file>
+<file path="bin/Tools" name="FTPBlastV0-1.exe">#FTP_CRACK#</file>
+<file path="bin/Tools" name="SSHCleave.exe">#SSH_CRACK#</file>
+<file path="bin/Tools" name="SMTPOverload.exe">#SMTP_CRACK#</file>
+<file path="bin/Tools" name="WebOroboros.exe">#WEB_CRACK#</file>
+<file path="bin/Themes/Chameleon" name="Chameleon.exe">#THEMECHANGER_EXE#</file>
+<file path="bin/Themes/Chameleon" name="ChameleonInfo.txt">
+To HackerCorps Members-
+
+A friend of mine has put together a custom x-server theme changer named Chameleon.
+To use it, download and run the excecutable, and it will scan both your system 
+and the system you're currently connected to for compatible theme settings. 
+
+It will change your theme without the need for a reboot,
+making it more efficient and potentially less risky than a manual theme swap.
+(Who even does those nowdays, anyways?)
+-Zaz</file>
+ <file path="bin/Themes/Standard" name="White-Theme.sys">#WHITE_THEME#</file>
+ <file path="bin/Themes/Standard" name="Green-Theme.sys">#GREEN_THEME#</file>
+ <file path="bin/Themes/Standard" name="Yellow-Theme.sys">#YELLOW_THEME#</file>
+ <file path="bin/Themes/Standard" name="Teal-Theme.sys">#TEAL_THEME#</file>
+ <file path="bin/Themes/Standard" name="Base-Theme.sys">#BASE_THEME#</file>
+ <file path="bin/Themes/Standard" name="LE-Theme.sys">#PURPLE_THEME#</file>
+ <file path="bin/Themes/Standard" name="Mint-Theme.sys">#MINT_THEME#</file>
+ <file path="bin/Misc" name="ImpregnableFortress.bak">#BINARY#</file>
+ <file path="bin/Misc" name="DropNotifier.bak">#BINARY#</file>
+  <file path="sys" name="DropNotifier.bat">#BINARY#</file>
+  <file path="sys" name="ImpregnableFortress.bat">#BINARY#</file>
+  <file path="Uploads" name="TestDrop.txt">If you see this, it should be in the right file on the DropServer.</file>
+</Computer>

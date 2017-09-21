@@ -1,0 +1,49 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="porttest" name="DigitalRebels Porttesting" security="3" ip="port.test" allowsDefaultBootModule="false" icon="psylance" type="empty" >
+
+<adminPass pass="ElementNebula" />
+<ports>21, 22, 25, 80, 104, 192, 443, 554, 1433, 6881</ports>
+<CustomConnectDisplayDaemon />
+
+<proxy time="-1" />
+<portsForCrack val="10" />
+<trace time="-1" />
+
+</Computer>
+
+<!-- Notes for Ports used on the ElementNebula 
+
+All Servers have a custom actionscript that triggers a redline script- essentially acting as a 'trace' without actually being a trace. If the redline completes, the computer will crash, and erase all the port progress. 
+The timer is tenatively going to be set at 125. The redline starts as soon as the player connects- this will be justified in universe as these computers are not supposed be connected to and have a failsafe to crash within two minutes of being connected to by an unauthorized computer.
+
+They will also have a whitelist file on them, to access the core all four of the whitelist auth files need to be deleted on each of the four stars. The music that will be playing during the challenge is CoreDualMix (Undertale Core + Core Genocide)
+
+Star of Earth
+SMTPOverflow
+WebServerWorm
+SSHCrack
+
+Star of Wind
+RTSPCrack
+SSLTrojan
+FTPSprint
+
+Star of Water
+(Proxy)
+PacificPortCrusher
+TorrentStreamInjector
+
+Star of Fire 
+(Firewall) (pass is ARCFIRAGA)
+KBTPortTest
+SQLMemcorrupt
+
+ElementCore
+(Firewall) (pass is ULTIMA)
+(Proxy)
+SMTPOverflow
+FTPSprint
+TorrentStreamInjector
+SQLMemcorrupt
+
+-->

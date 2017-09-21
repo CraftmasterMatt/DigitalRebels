@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<CustomFaction name="ToL Hacker Corps" id="HackerCorps" playerVal="0">
+
+<Action ValueRequired="1">
+<AddIRCMessage Author="!CHANNEL!" TargetComp="HCorpsHub" Delay="0.1">--------------------------------------</AddIRCMessage>
+<AddIRCMessage Author="!CHANNEL!" TargetComp="HCorpsHub" Delay="0.1">! ANNOUNCEMENT ! @CHANNEL User #PLAYERNAME# has joined the HackerCorps IRC!</AddIRCMessage>
+<AddIRCMessage Author="!CHANNEL!" TargetComp="HCorpsHub" Delay="0.1">--------------------------------------</AddIRCMessage>
+<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="5.5">@#PLAYERNAME#, I'm glad to see that you got in alright. </AddIRCMessage>
+<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="1.3">@Zaz New comp who dis</AddIRCMessage>
+<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="2.5">@Teseo, this is #PLAYERNAME#, they'll be joining us.</AddIRCMessage>
+<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="1.3">Ohai @#PLAYERNAME#.</AddIRCMessage>
+<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="1.3">Y R U so quiet tho? Is ur keyboard machine broke?</AddIRCMessage>
+<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="1.3">I could fix it for u tho #HackTheWorld</AddIRCMessage>
+<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="2.5">@Teseo, STOP. If they have anything important to say I'm sure they'll say it. Otherwise, leave them alone.</AddIRCMessage>
+<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="3.3">Kk</AddIRCMessage>
+<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="2.5">Anyways @#PLAYERNAME#, there aren't any projects available right now, but I think we'll have one shortly.</AddIRCMessage>
+<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="2.5">Here's a link to our DropServer, which also doubles as our Asset server. I set up a login for you, too.</AddIRCMessage>
+<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="0.1">!ATTACHMENT:link#%#HCorpsDrop#%#</AddIRCMessage>
+<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="0.1">!ATTACHMENT:account#%#HCorpsDrop#%##PLAYERNAME##%#INeedAHero</AddIRCMessage>
+</Action>
+</CustomFaction>

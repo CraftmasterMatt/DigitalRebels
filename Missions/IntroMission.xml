@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="IntroMission" activeCheck="true">
+  <goals>
+    <goal type="filedeletion" target="playerBackup" file="DeleteThis.txt" path="home"/>
+	<goal type="filedownload" target="playerBackup" file="DigiSequencer.exe" path="bin/DigiSequencer"/> 
+	<goal type="getadmin" target="playerBackup"/>
+	<goal type="delay" time="5.0"/>
+ </goals>
+  <nextMission>Missions/FinishStartup.xml</nextMission>
+  <email>
+    <sender>Anonymous</sender>
+    <subject>Backup Server is good to go!</subject>
+<body>Hello #PLAYERNAME#!
+
+I got your new backup server up and running. 
+It is secondhand, though, and the previous owner had 
+a few requests for the next owner (AKA you.)
+
+Firstly they want the new owner to delete a text file called
+"DeleteThis.txt" in the home folder.
+They also want you to download whatever program 
+is in the /bin directory, and run it- 
+whenever you're not busy.
+
+Also, I'm sorry in advance, but I forgot the password. 
+I'll email you it as soon as I can. I wrote down the old password 
+but I just changed it for security.
+You might actually need to break in, again, I'm sorry.
+
+Thanks for the money!
+-Anonymous
+</body>
+    <attachments>
+	<note title="Mission Outline">
+Break into your backup server.
+Delete "DeleteThis.txt"
+Download the program in /bin
+Disconnect.
+      </note>
+    <link comp="playerBackup" />
+	</attachments>
+  </email>
+</mission>

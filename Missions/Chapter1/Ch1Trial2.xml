@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Ch1Trial2">
+  <goals>
+  <goal type="getstring" target="AlabasterScimitar"/>
+  </goals> 
+  <nextMission>Missions/Chapter1/Ch1Trial3.xml</nextMission>
+  <email>
+    <sender>Zaz</sender>
+    <subject>RE:To #PLAYERNAME#</subject>
+<body>Oh my gods, finally.
+
+Do you even /know/ how aggravating it was to have
+your battlestation chirping at you like a mindless
+bird or something? FINALLY IT'S OVER.
+
+Apparently the company uses the WebOroboros
+worm program to break into their targets and inject
+an adbot through the opened port. While I don't
+normally condone wrecking systems, these guys
+deserved it.
+
+Anyways, hold onto WebOroboros, it'll come
+in handy to you as a hacker. I'm relieved-
+SOMEONE was able to stop the adbot,
+but I'm still keeping my guard up until
+I can find a patch to keep out WebOroboros.
+
+Anyways- next mission.
+
+I need you to retrieve a password from one of my backup computers.
+I would do it myself, but it's a tablet, and I can't seem to locate
+it right now. It's probably plugged in, so you should still be able to
+access it- I'm still busy scrubbing the remnants of the adbot out of
+my systems.
+
+The password is CASE SENSITIVE. Please reply with it
+as soon as you have it. It's for something very important.
+
+I'm counting on you.
+-Zaz
+</body>
+    <attachments>
+	 <note title="Your Mission">
+	Obtain the password 
+	Zaz needs from the 
+	linked node.
+	Check in any text files.
+      </note>
+	  <link comp="TrialTwoPC" />
+    </attachments>
+  </email>
+</mission>

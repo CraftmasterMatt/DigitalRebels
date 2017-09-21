@@ -1,0 +1,9 @@
+<!--Redline Scripts, may be used later if I can make sure they work properly.-->
+
+<StartScreenBleedEffect AlertTitle="Emergency REQUIP Activation Sequence" CompleteAction="Actions/HackerScriptActions.xml" TotalDurationSeconds="123.5" DelayHost="advExamplePC" Delay="3.5">CONNECT TO TOL CONTROL HUB
+BREAK SECURITY
+DELETE REQUIP-SETTINGS.DLL IN /SYS DIRECTORY</StartScreenBleedEffect>
+
+<StartScreenBleedEffect AlertTitle="Hacker Duel" CompleteAction="Actions/FailHackerDuel.xml" TotalDurationSeconds="109.0" DelayHost="DelayHost" Delay="21.5">CONNECT TO TOL CONTROL HUB
+BREAK SECURITY
+DELETE REQUIP-SETTINGS.DLL IN /SYS DIRECTORY</StartScreenBleedEffect>
