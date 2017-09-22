@@ -2,7 +2,6 @@
 <mission id="ZazAssignment">
   <goals>
   </goals>
-  <missionStart val="0"></missionStart>
   <nextMission>NONE</nextMission>
   <posting title="Backdoor Blast">
 Seed several servers with backdoors to ease future hacking efforts.

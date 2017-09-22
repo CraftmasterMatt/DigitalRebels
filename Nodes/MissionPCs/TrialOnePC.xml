@@ -1,17 +1,17 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="TrialOnePC" name="Freebird.Net Ad Service Mainframe" security="3" allowsDefaultBootModule="false" type="1" >
-
-<ports>21, 22, 25</ports>
-<proxy time="-1" />
-<portsForCrack val="3" />
-<trace time="-1" />
-<file path="home" name="IMPORTANT_MEMO.txt">The next person who suggests making our ads less intrusive 
+	<ports>21, 22, 25</ports>
+	<proxy time="-1" />
+	<portsForCrack val="3" />
+	<trace time="-1" />
+	<file path="home" name="IMPORTANT_MEMO.txt">The next person who suggests making our ads less intrusive 
 to non-paying clients during ANY meeting will be defenestrated. 
 We have our reasons for making them so obnoxious and we're not telling you why.
--Supreme Chairman Overlord CEO</file>
-<file path="bin" name="WebOroboros.exe">#WEB_CRACK#</file>
-<file path="bin" name="WebOroborosInfo.txt">This file is the designated backup for our powerful worm program called WebOroboros- 
+-Supreme Chairman Overlord CEO
+</file>
+	<file path="bin" name="WebOroboros.exe">#WEB_CRACK#</file>
+	<file path="bin" name="WebOroborosInfo.txt">This file is the designated backup for our powerful worm program called WebOroboros- 
 This program allows us to bypass verification on a lot of different systems, so we can implant our advertisements in a more effective manner on targeted client systems.</file>
-<file path="sys" name="Freebird.Net_Adbot_Targets.bat">#BINARY#</file>
-<file path="sys" name="Adbot_Network_Firmware.bat">#BINARY#</file>
+	<file path="sys" name="Freebird.Net_Adbot_Targets.bat">#BINARY#</file>
+	<file path="sys" name="Adbot_Network_Firmware.bat">#BINARY#</file>
 </Computer>

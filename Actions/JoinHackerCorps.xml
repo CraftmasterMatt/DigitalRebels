@@ -1,27 +1,25 @@
 <ConditionalActions>
-
-<OnConnect target="HCorpsHub">
- <RunFunction FunctionName="setHubServer:HCorpsHub" />
- <RunFunction FunctionName="setAssetServer:HCorpsDrop" />
- <ChangeAlertIcon Target="HCorpsHub" Type="irchub" DelayHost="HCorpsHub" Delay="1.0"/>
- <HideNode DelayHost="HCorpsHub" Delay="0.1" TargetComp="jmail" />
- <AddMissionToHubServer MissionFilepath="Missions/Chapter1/WhitelistBust.xml" TargetComp="HCorpsHub"/>
- 
-	<AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="10.0">--------------------------------------</AddIRCMessage>
-	<AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="10.1">!ANNOUNCEMENT! @Channel USER @#PLAYERNAME# has joined the HackerCorps IRC!</AddIRCMessage>
-	<AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="10.2">--------------------------------------</AddIRCMessage>
-	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="14.5">@#PLAYERNAME#, I'm glad to see that you got in alright. </AddIRCMessage>
-	<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="16.5">@Zaz New comp who dis</AddIRCMessage>
-	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="17.5">@Teseo, this is #PLAYERNAME#, they'll be joining us.</AddIRCMessage>
-	<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="19.5">Ohai @#PLAYERNAME#.</AddIRCMessage>
-	<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="23.5">Y R U so quiet tho? Is ur keyboard machine broke?</AddIRCMessage>
-	<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="27.5">I could fix it for u tho #HackTheWorld</AddIRCMessage>
-	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="30.5">@Teseo, STOP. If they have anything important to say I'm sure they'll say it. Otherwise, leave them alone.</AddIRCMessage>
-	<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="35.5">Kk</AddIRCMessage>
-	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="37.5">Anyways @#PLAYERNAME#, we have an assignment for you.</AddIRCMessage>
-	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="41.5">It's the only one available, but I'm fairly certain you can handle it.</AddIRCMessage>
-	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="44.5">When you open that assignment, you should get a link to our asset DropServer. </AddIRCMessage>
-	<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="47.5">Make sure you have everything you need before you get to work.</AddIRCMessage>
-</OnConnect>
-
+	<OnConnect target="HCorpsHub">
+		<RunFunction FunctionName="setFaction:HackerCorps" />
+		<RunFunction FunctionName="setHubServer:HCorpsHub" />
+		<RunFunction FunctionName="setAssetServer:HCorpsDrop" />
+		<ChangeAlertIcon Target="HCorpsHub" Type="irchub" DelayHost="HCorpsHub" Delay="1.0"/>
+		<HideNode DelayHost="HCorpsHub" Delay="0.1" TargetComp="jmail" />
+		<AddMissionToHubServer MissionFilepath="Missions/Chapter1/WhitelistBust.xml" TargetComp="HCorpsHub"/>
+		<AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="10.0">--------------------------------------</AddIRCMessage>
+		<AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="10.1">!ANNOUNCEMENT! @Channel USER @#PLAYERNAME# has joined the HackerCorps IRC!</AddIRCMessage>
+		<AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="10.2">--------------------------------------</AddIRCMessage>
+		<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="14.5">@#PLAYERNAME#, I'm glad to see that you got in alright. </AddIRCMessage>
+		<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="16.5">@Zaz New comp who dis</AddIRCMessage>
+		<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="17.5">@Teseo, this is #PLAYERNAME#, they'll be joining us.</AddIRCMessage>
+		<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="19.5">Ohai @#PLAYERNAME#.</AddIRCMessage>
+		<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="23.5">Y R U so quiet tho? Is ur keyboard machine broke?</AddIRCMessage>
+		<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="27.5">I could fix it for u tho #HackTheWorld</AddIRCMessage>
+		<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="30.5">@Teseo, STOP. If they have anything important to say I'm sure they'll say it. Otherwise, leave them alone.</AddIRCMessage>
+		<AddIRCMessage Author="Teseo" TargetComp="HCorpsHub" Delay="35.5">Kk</AddIRCMessage>
+		<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="37.5">Anyways @#PLAYERNAME#, we have an assignment for you.</AddIRCMessage>
+		<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="41.5">It's the only one available, but I'm fairly certain you can handle it.</AddIRCMessage>
+		<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="44.5">When you open that assignment, you should get a link to our asset DropServer. </AddIRCMessage>
+		<AddIRCMessage Author="Zaz" TargetComp="HCorpsHub" Delay="47.5">Make sure you have everything you need before you get to work.</AddIRCMessage>
+	</OnConnect>
 </ConditionalActions>

@@ -1,14 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="porttest" name="DigitalRebels Porttesting" security="3" ip="port.test" allowsDefaultBootModule="false" icon="psylance" type="empty" >
-
-<adminPass pass="ElementNebula" />
-<ports>21, 22, 25, 80, 104, 192, 443, 554, 1433, 6881</ports>
-<CustomConnectDisplayDaemon />
-
-<proxy time="-1" />
-<portsForCrack val="10" />
-<trace time="-1" />
-
+	<adminPass pass="ElementNebula" />
+	<ports>21, 22, 25, 80, 104, 192, 443, 554, 1433, 6881</ports>
+	<CustomConnectDisplayDaemon />
+	<proxy time="-1" />
+	<portsForCrack val="10" />
+	<trace time="-1" />
 </Computer>
 
 <!-- Notes for Ports used on the ElementNebula 

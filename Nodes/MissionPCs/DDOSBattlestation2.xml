@@ -1,12 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="DDOSBattlestation2" name="Xx_ASSASSIN_xX Battleterminal" security="3" allowsDefaultBootModule="false" icon="DLCPC1" type="empty" >
-<firewall level="9" solution="NOSCOPERZ" additionalTime="0.25"/>
-<ports>21, 22, 25, 80</ports>
-<proxy time="-1" />
-<portsForCrack val="4" />
-<trace time="-1" />
-<file path="home" name="READ ME SCRUB HACKER.txt">If ur reding this u r a boring noob scrub who needs to get rekt</file>
-<file path="home" name="History-Homework.txt">
+	<firewall level="9" solution="NOSCOPERZ" additionalTime="0.25"/>
+	<ports>21, 22, 25, 80</ports>
+	<proxy time="-1" />
+	<portsForCrack val="4" />
+	<trace time="-1" />
+	<file path="home" name="READ ME SCRUB HACKER.txt">If ur reding this u r a boring noob scrub who needs to get rekt</file>
+	<file path="home" name="History-Homework.txt">
 -HISTORY-OF-ORION-  -THE-CALAMITY-
 Name:_____________ Score:69/100 (lol)
 ----------------------------------------
@@ -16,9 +16,10 @@ Does anyone know why it happened- yes or no? .... not really
 Explain the answer to your previous question. .... it was kinda a giant space flea from nowhere I guess?
 What can we learn from The Calamity? .... life is meaningless and death approaches so go play video games. 
 Do you think there will be another Calamity? .... very yes most definitely.
-----------------------------------------</file>
-<file path="bin" name="MegaFlare-FFX10.exe">#BINARY#</file>
-<file path="megaflare" name="MEGAFFX10Firmware.dll">#BINARY#</file>
-<file path="megaflare" name="MEGAFFX10Settings.dll">#BINARY#</file>
-<file path="megaflare" name="MEGAFFX10Targets.dll">#BINARY#</file>
+----------------------------------------
+</file>
+	<file path="bin" name="MegaFlare-FFX10.exe">#BINARY#</file>
+	<file path="megaflare" name="MEGAFFX10Firmware.dll">#BINARY#</file>
+	<file path="megaflare" name="MEGAFFX10Settings.dll">#BINARY#</file>
+	<file path="megaflare" name="MEGAFFX10Targets.dll">#BINARY#</file>
 </Computer>

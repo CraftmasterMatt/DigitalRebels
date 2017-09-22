@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DDoSStop"> <!-- NoscoperZ names provided by user A Pet Turret on Discord. -->
+	<goals>  
+		<goal type="filedeletion" target="DDOSBattlestation1" file="MegaFlare-FFX10.exe" path="bin"/>
+		<goal type="clearfolder"  target="DDOSBattlestation1" path="megaflare"/>
+	
+		<goal type="filedeletion" target="DDOSBattlestation2" file="MegaFlare-FFX10.exe" path="bin"/>
+		<goal type="clearfolder"  target="DDOSBattlestation2" path="megaflare"/>
+	
+		<goal type="filedeletion" target="DDOSBattlestation3a" file="MegaFlare-FFX10.exe" path="bin"/>
+		<goal type="clearfolder"  target="DDOSBattlestation3a" path="megaflare"/>
+	</goals>
+	<missionStart val="0">loadConditionalActions:Actions/DDoSStopActions.xml</missionStart>
+	<nextMission>NONE</nextMission>
+	<posting title="Stop a DDoS attack">
+Stop a group of script squids ruining a livestream.
+	</posting>
+	<email>
+		<sender>Zaz</sender>
+		<subject>Squid Hunt</subject>
+		<body>
+A group of script squids known as the 
+NoscoperZ are currently in the process 
+of a Distributed Denial of Service attack 
+on a private livestream event. 
+
+The program they're using, MegaFlare FFX10, 
+is a powerful and yet easy to use program 
+for such a purpose.
+
+You'll need to gain access to all three 
+of their battlestations, and then delete both 
+MegaFlare and the settings in the /megaflare directory.
+Make sure you wipe the entire folder.
+
+Don't bother saving a copy of MegaFlare-FFX10, 
+either- we already have a copy of it 
+for testing purposes ONLY.
+(In other words, don't ask for a copy.)
+	
+As usual, don't forget to clear your logs. 
+They're script squids, yes, but it never hurts 
+to be too careful.
+
+Good Luck.
+-Zaz.
+</body>
+		<attachments>
+			<link comp="DDOSBattlestation1" /> <!-- xX_QuickScopePro_Xx -->
+			<link comp="DDOSBattlestation2" /> <!-- Xx_ASSASSIN_xX -->
+			<link comp="DDOSBattlestation3" /> <!-- xxKiLlErxQuEeNxx -->
+			<note title="Your Mission">
+--ON EACH COMPUTER---
+Delete MegaFlare-FFX10.exe from /bin
+Clear /megaflare
+Clear /log
+</note>
+		</attachments>
+	</email>
+</mission>

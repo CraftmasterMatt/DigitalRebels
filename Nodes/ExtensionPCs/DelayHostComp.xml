@@ -1,7 +1,7 @@
-
-<Computer id="DelayHostComp" name="Digital Rebels DelayHost" ip="DELAY.HOST.COMP" security="5" allowsDefaultBootModule="true" icon="chip" 
-type="empty">
-<portsForCrack val="4444"/> <firewall level="15" solution="4444AOHOrion4444" additionalTime="60.0"/> <trace time="-1" />
-<FastActionHost />
-<CustomConnectDisplayDaemon />
+<Computer id="DelayHostComp" name="Digital Rebels DelayHost" ip="DELAY.HOST.COMP" 
+  security="5" allowsDefaultBootModule="true" icon="chip"  type="empty">
+	<FastActionHost />
+	<portsForCrack val="4444"/>
+	<firewall level="15" solution="4444AOHOrion4444" additionalTime="60.0"/> <trace time="-1" />
+	<CustomConnectDisplayDaemon />
 </Computer>

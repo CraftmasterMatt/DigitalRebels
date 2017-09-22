@@ -2,7 +2,6 @@
 <mission id="TeseoAssignment">
   <goals>
   </goals>
-  <missionStart val="0"></missionStart>
   <nextMission>NONE</nextMission>
   <posting title="Impregnable Fortress">
 Now that we're up and running, we now need additional security 

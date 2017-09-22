@@ -1,9 +1,7 @@
 <ConditionalActions>
-  
-  <Instantly> 
- <AddAsset FileName="ThemeChanger" FileContents="#THEMECHANGER_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
- <GivePlayerUserAccount  TargetComp="playerComp" Username="#PLAYERNAME" />
- <GivePlayerUserAccount  TargetComp="jmail" Username="#PLAYERNAME#" />
-  </Instantly>
-  
+	<Instantly> 
+		<GivePlayerUserAccount  TargetComp="playerComp" Username="#PLAYERNAME" />
+		<GivePlayerUserAccount  TargetComp="jmail" Username="#PLAYERNAME#" />
+		<DeleteFile TargetComp="playerComp" FilePath="sys" FileName="SignalIsolator.sys" />
+	</Instantly>  
 </ConditionalActions>

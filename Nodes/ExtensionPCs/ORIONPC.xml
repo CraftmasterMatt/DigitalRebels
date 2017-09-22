@@ -1,11 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="ORIONPC" name="DigiSequencer Initialization Service" security="5" allowsDefaultBootModule="true" type="empty">
-<ports>80,1433</ports>
-<proxy time="-1" />
-<portsForCrack val="4444" />
-<trace time="-1" />
-<CustomConnectDisplayDaemon />
-<file path="home" name="To_The_People_Who_Got_In.txt">
+	<ports>80,1433</ports>
+	<proxy time="-1" />
+	<portsForCrack val="4444" />
+	<trace time="-1" />
+	<CustomConnectDisplayDaemon />
+	<file path="home" name="To_The_People_Who_Got_In.txt">
 Hello have some respect and
 don't 
 spoil
@@ -19,5 +19,6 @@ no one will be impressed
 It will be 
 YOUR 
 FAULT
-#BINARY#</file>
+#BINARY#
+</file>
 </Computer>

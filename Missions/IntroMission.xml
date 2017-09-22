@@ -1,16 +1,17 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="IntroMission" activeCheck="true">
-  <goals>
-    <goal type="filedeletion" target="playerBackup" file="DeleteThis.txt" path="home"/>
-	<goal type="filedownload" target="playerBackup" file="DigiSequencer.exe" path="bin/DigiSequencer"/> 
-	<goal type="getadmin" target="playerBackup"/>
-	<goal type="delay" time="5.0"/>
- </goals>
-  <nextMission>Missions/FinishStartup.xml</nextMission>
-  <email>
-    <sender>Anonymous</sender>
-    <subject>Backup Server is good to go!</subject>
-<body>Hello #PLAYERNAME#!
+	<goals>
+		<goal type="filedeletion" target="playerBackup" file="DeleteThis.txt" path="home"/>
+		<goal type="filedownload" target="playerBackup" file="DigiSequencer.exe" path="bin/DigiSequencer"/> 
+		<goal type="getadmin" target="playerBackup"/>
+		<goal type="delay" time="5.0"/>
+	</goals>
+	<missionStart>loadConditionalActions:Actions/IntroActions.xml</missionStart>
+	<nextMission>Missions/FinishStartup.xml</nextMission>
+	<email>
+		<sender>Anonymous</sender>
+		<subject>Backup Server is good to go!</subject>
+		<body>Hello #PLAYERNAME#!
 
 I got your new backup server up and running. 
 It is secondhand, though, and the previous owner had 
@@ -30,14 +31,14 @@ You might actually need to break in, again, I'm sorry.
 Thanks for the money!
 -Anonymous
 </body>
-    <attachments>
-	<note title="Mission Outline">
+		<attachments>
+			<note title="Mission Outline">
 Break into your backup server.
 Delete "DeleteThis.txt"
 Download the program in /bin
 Disconnect.
-      </note>
-    <link comp="playerBackup" />
-	</attachments>
-  </email>
+</note>
+			<link comp="playerBackup" />
+		</attachments>
+	</email>
 </mission>

@@ -1,13 +1,13 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="Ch1Trial2">
-  <goals>
-  <goal type="getstring" target="AlabasterScimitar"/>
-  </goals> 
-  <nextMission>Missions/Chapter1/Ch1Trial3.xml</nextMission>
-  <email>
-    <sender>Zaz</sender>
-    <subject>RE:To #PLAYERNAME#</subject>
-<body>Oh my gods, finally.
+	<goals>
+		<goal type="getstring" target="AlabasterScimitar"/>
+	</goals> 
+	<nextMission>Missions/Chapter1/Ch1Trial3.xml</nextMission>
+	<email>
+		<sender>Zaz</sender>
+		<subject>RE:To #PLAYERNAME#</subject>
+		<body>Oh my gods, finally.
 
 Do you even /know/ how aggravating it was to have
 your battlestation chirping at you like a mindless
@@ -39,14 +39,11 @@ as soon as you have it. It's for something very important.
 I'm counting on you.
 -Zaz
 </body>
-    <attachments>
-	 <note title="Your Mission">
-	Obtain the password 
-	Zaz needs from the 
-	linked node.
-	Check in any text files.
-      </note>
-	  <link comp="TrialTwoPC" />
-    </attachments>
-  </email>
+		<attachments>
+			<note title="Your Mission">
+Obtain the password from the linked node.
+			</note>
+			<link comp="TrialTwoPC" />
+		</attachments>
+	</email>
 </mission>
