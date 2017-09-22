@@ -2,6 +2,8 @@
 ## Description
 
 \\-|-Digital Rebels-|-\\
+  
+  
   "Nothing is ever as it seems..."
   Enter a world of hacking unlike any other- join the HackerCorps as
   they investigate the mysterious NWLC and their suspicious Project TRIAD.
