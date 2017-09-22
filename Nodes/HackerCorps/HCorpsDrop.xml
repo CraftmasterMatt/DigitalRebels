@@ -5,7 +5,7 @@
 	<portsForCrack val="4" />
 	<trace time="-1" />
 	<dlink target="HCorpsHUB" />
-	<uploadServerDaemon name="HackerCorps Asset DropServer" folder="Uploads" needsAuth="false" color="64,36,247"/>
+	<uploadServerDaemon name="HackerCorps Asset DropServer" folder="Uploads" needsAuth="false" color="64,36,247" hasReturnViewButton="true"/>
 	<file path="home" name="TO_HACKERCORPS_MEMBERS.txt">Please be respectful of the dropserver.
 This is NOT your personal backup server- any personal items that are not assignment/project pertinent will be PURGED.
 Conservation of our non-infinite storage space is important.
