@@ -1,5 +1,0 @@
-<ConditionalActions>
-	<Instantly>
-		<DeleteFile TargetComp="playerComp" FilePath="sys" FileName="SignalIsolator.sys" />
-	</Instantly>
-</ConditionalActions>

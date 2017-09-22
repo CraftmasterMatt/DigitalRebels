@@ -6,7 +6,7 @@
 		<goal type="getadmin" target="playerBackup"/>
 		<goal type="delay" time="5.0"/>
 	</goals>
-	<missionStart>loadConditionalActions:Actions/FIX_VERIFICATION.xml</missionStart>
+	<missionStart>loadConditionalActions:Actions/IntroActions.xml</missionStart>
 	<nextMission>Missions/FinishStartup.xml</nextMission>
 	<email>
 		<sender>Anonymous</sender>

@@ -1,10 +1,7 @@
 <ConditionalActions>
-  
 	<Instantly> 
-		<!-- TODO: Move this to the playerComp node definition -->
-		<AddAsset FileName="ThemeChanger.exe" FileContents="#THEMECHANGER_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
 		<GivePlayerUserAccount  TargetComp="playerComp" Username="#PLAYERNAME" />
 		<GivePlayerUserAccount  TargetComp="jmail" Username="#PLAYERNAME#" />
-	</Instantly>
-  
+		<DeleteFile TargetComp="playerComp" FilePath="sys" FileName="SignalIsolator.sys" />
+	</Instantly>  
 </ConditionalActions>

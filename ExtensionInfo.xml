@@ -4,7 +4,6 @@
 	<AllowSaves>true</AllowSaves>
 	<StartingVisibleNodes>MailServer</StartingVisibleNodes>
 	<StartingMission>Missions/IntroMission.xml</StartingMission>
-	<StartingActions>Actions/IntroActions.xml</StartingActions>
 	<Description> 
 Join the HackerCorps as they investigate the mysterious NWLC,
 and their suspicious 'Project TRIAD' as you enter a world of
