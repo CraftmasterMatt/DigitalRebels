@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="DDoStop"> <!-- NoscoperZ names provided by user A Pet Turret on Discord. -->
+<mission id="DDoSStop"> <!-- NoscoperZ names provided by user A Pet Turret on Discord. -->
 	<goals>  
 		<goal type="filedeletion" target="DDOSBattlestation1" file="MegaFlare-FFX10.exe" path="bin"/>
 		<goal type="clearfolder"  target="DDOSBattlestation1" path="megaflare"/>
@@ -10,7 +10,7 @@
 		<goal type="filedeletion" target="DDOSBattlestation3a" file="MegaFlare-FFX10.exe" path="bin"/>
 		<goal type="clearfolder"  target="DDOSBattlestation3a" path="megaflare"/>
 	</goals>
-	<missionStart val="0">loadConditionalActions:Actions/IRC/DDOStopActions.xml</missionStart>
+	<missionStart val="0">loadConditionalActions:Actions/DDoSStopActions.xml</missionStart>
 	<nextMission>NONE</nextMission>
 	<posting title="Stop a DDoS attack">
 Stop a group of script squids ruining a livestream.

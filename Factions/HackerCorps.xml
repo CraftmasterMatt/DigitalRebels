@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <CustomFaction name="ToL Hacker Corps" id="HackerCorps" playerVal="0">
 	<Action ValueRequired="1">
-	        <AddMissionToHubServer MissionFilepath="Missions/Chapter1/DDOStop.xml" TargetComp="HCorpsHub"/>
+	        <AddMissionToHubServer MissionFilepath="Missions/Chapter1/DDoSStop.xml" TargetComp="HCorpsHub"/>
         	<AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="3.0">--------------------------------------</AddIRCMessage>
 	        <AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="3.1">!ANNOUNCEMENT! @Channel USER @#PLAYERNAME# has completed the assignment "Whitelist Bust" successfully!</AddIRCMessage>
         	<AddIRCMessage Author="Channel" TargetComp="HCorpsHub" Delay="3.2">--------------------------------------</AddIRCMessage>
